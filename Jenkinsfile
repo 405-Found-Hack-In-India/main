@@ -17,7 +17,7 @@ pipeline {
 
         stage('frontend test') {
           steps {
-            sh 'cd 405-Found-Hack-In-India/main && npm i && npm i run test:unit'
+            sh 'npm i && npm i run test:unit'
           }
         }
 
